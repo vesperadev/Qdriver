@@ -1,0 +1,28 @@
+# 系统/编辑器文件
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+Docs/
+# 日志
+*.log
+
+# 依赖与构建产物
+node_modules/
+dist/
+# CMake 构建产物（不锚定路径，覆盖所有层级）
+build/
+
+# STM32CubeMX 备份文件
+*.bak
+# 补充这些
+Backup/
+*.uvprojx
+*.uvoptx
+Debug/
+Release/
+*.ioc.bak
+.factory
+.project
+.cproject
